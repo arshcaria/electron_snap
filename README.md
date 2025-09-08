@@ -1,6 +1,6 @@
 ## Electron Windows Snap State Detection Demo
 
-A minimal Electron example to reproduce and demonstrate issues around detecting and persisting the Windows window snap (Arrange/Snap) state.
+A minimal Electron example to check the Windows window snap (Arrange/Snap) state.
 
 ## Screenshot
 ![Screenshot](assets/screenshot_01.png)
