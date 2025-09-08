@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'">
+    <title>Window Status</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Window Status</h1>
+        
+        <button class="detect-button" id="detectButton">
+            Detect Status
+        </button>
+        
+        <div id="statusInfo" class="status-info">
+            <!-- Status information will be displayed here -->
+        </div>
+    </div>
+    
+    <script src="renderer.js"></script>
+
+</body>
+</html>
