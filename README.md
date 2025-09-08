@@ -2,6 +2,9 @@
 
 A minimal Electron example to reproduce and demonstrate issues around detecting and persisting the Windows window snap (Arrange/Snap) state.
 
+## Screenshot
+![Screenshot](assets/screenshot_01.png)
+
 ### Features
 - **Snap detection**: Uses a Windows native API via PowerShell (calling `user32.dll` `IsWindowArranged`) to determine whether the current Electron window is snapped.
 - **Window info display**: Shows window position and size in the UI.
